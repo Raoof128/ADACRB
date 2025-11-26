@@ -1,0 +1,36 @@
+{
+  "name": "Casey Analyst",
+  "headline": "Blue Team Specialist",
+  "summary": "Security practitioner with a focus on measurable detection improvements and resilient response playbooks.",
+  "targetRole": "SOC Analyst",
+  "skills": [
+    "SIEM",
+    "SOAR",
+    "MITRE ATT&CK",
+    "EDR",
+    "UEBA",
+    "KQL",
+    "Playbook Automation"
+  ],
+  "experience": [
+    {
+      "role": "Security Analyst",
+      "company": "Fictional Corp",
+      "period": "2022 - Present",
+      "achievements": [
+        "Built detection rules that reduced false positives by 18% while increasing coverage of priority threats.",
+        "Automated enrichment tasks using SOAR runbooks to cut triage time by 25%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. Cybersecurity",
+      "institution": "Example University",
+      "period": "2018 - 2022"
+    }
+  ],
+  "layout": "modern",
+  "level": "mid",
+  "track": "blue"
+}

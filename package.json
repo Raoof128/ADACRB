@@ -1,0 +1,30 @@
+{
+  "name": "cyber-resume-builder",
+  "version": "1.1.0",
+  "description": "AI-driven cybersecurity resume builder with ATS scorer and keyword intelligence.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "resume",
+    "cybersecurity",
+    "ATS",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^12.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3"
+  }
+}

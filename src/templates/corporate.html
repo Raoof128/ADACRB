@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{name}} - Corporate Cybersecurity Resume</title>
+  <style>
+    body { font-family: "Helvetica Neue", Arial, sans-serif; background: #f4f6f8; margin: 0; padding: 48px; color: #111827; }
+    .shell { max-width: 940px; margin: 0 auto; background: white; border: 1px solid #e5e7eb; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.08); }
+    header { border-bottom: 3px solid #111827; padding: 28px; }
+    h1 { margin: 0; font-size: 34px; letter-spacing: 0.3px; }
+    .headline { color: #374151; margin-top: 6px; }
+    .content { display: grid; grid-template-columns: 1fr; gap: 24px; padding: 28px; }
+    .section h2 { margin: 0 0 8px; font-size: 16px; text-transform: uppercase; letter-spacing: 1.2px; color: #111827; }
+    .summary { line-height: 1.6; color: #111827; }
+    .pill { background: #e5e7eb; padding: 6px 10px; margin: 4px; border-radius: 10px; display: inline-block; font-size: 13px; }
+    .experience-item { margin-bottom: 14px; }
+    .title-row { display: flex; justify-content: space-between; font-weight: 600; }
+    .company { color: #4b5563; margin: 4px 0 8px; }
+    ul { margin: 0; padding-left: 18px; color: #1f2937; line-height: 1.5; }
+    footer { display: flex; justify-content: space-between; align-items: center; padding: 20px 28px; background: #111827; color: white; border-radius: 0 0 12px 12px; }
+    .badge { background: #10b981; color: white; padding: 6px 10px; border-radius: 8px; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <h1>{{name}}</h1>
+      <div class="headline">{{headline}}</div>
+    </header>
+    <div class="content">
+      <section class="section">
+        <h2>Professional Summary</h2>
+        <p class="summary">{{summary}}</p>
+      </section>
+      <section class="section">
+        <h2>Core Competencies</h2>
+        <div>{{skills}}</div>
+      </section>
+      <section class="section">
+        <h2>Experience</h2>
+        {{experience}}
+      </section>
+      <section class="section">
+        <h2>Education</h2>
+        {{education}}
+      </section>
+    </div>
+    <footer>
+      <div class="badge">ATS: {{score}} / 100</div>
+      <div>{{scoreBreakdown}}</div>
+    </footer>
+  </div>
+</body>
+</html>
